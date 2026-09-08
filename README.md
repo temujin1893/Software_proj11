@@ -28,7 +28,7 @@ Make sure Ollama is running. Restart the app. The header should say `Ollama conn
 
 Without Ollama, the app uses a deterministic evidence-list fallback so the software demo still works.
 
-## Demo script for professor
+## Demo script
 1. Open the dashboard and explain the layered architecture.
 2. Click a category to show ingestion/search.
 3. Ask: `Compare today's technology and business stories.`
