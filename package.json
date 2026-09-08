@@ -1,0 +1,10 @@
+{
+  "name":"world-in-brief-state-of-art",
+  "version":"2.0.0",
+  "private":true,
+  "description":"World In Brief - AI News Intelligence Platform",
+  "main":"src/server.js",
+  "scripts":{"start":"node src/server.js","dev":"node --watch src/server.js","test":"node --test tests","health":"node -e \"fetch('http://localhost:5000/api/health').then(r=>r.text()).then(console.log)\""},
+  "dependencies":{"better-sqlite3":"^11.8.1","cors":"^2.8.5","dotenv":"^16.4.7","express":"^4.21.2","jsonwebtoken":"^9.0.2","rss-parser":"^3.13.0","bcryptjs":"^2.4.3","uuid":"^11.0.5"},
+  "engines":{"node":">=20"}
+}
